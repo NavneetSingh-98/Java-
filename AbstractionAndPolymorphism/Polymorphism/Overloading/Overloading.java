@@ -1,7 +1,5 @@
 package AbstractionAndPolymorphism.Polymorphism.Overloading;
 
-import java.util.Scanner;
-
 public class Overloading {
 
     // Method Overloading  
