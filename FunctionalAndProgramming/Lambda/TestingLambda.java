@@ -4,6 +4,7 @@ public class TestingLambda {
     public static void main(String[] args) {
         TestingLambda test = new TestingLambda();
         int sum = test.sum(5, 5);
+        // (a,b) -> a+ b;
         test.printString("This is the JAVA Course ");
 
         // toPrint -> System.out.println(toPrint);
