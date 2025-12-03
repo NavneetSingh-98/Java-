@@ -7,6 +7,7 @@ public class LambdaDivide {
         BinaryOperator<Integer> div = (a, b) -> a % b;
         int result = div.apply(10, 5);
         System.out.println(result);
+        
     }
 
 }

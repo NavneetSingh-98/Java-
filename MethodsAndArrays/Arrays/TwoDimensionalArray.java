@@ -29,7 +29,7 @@ public class TwoDimensionalArray {
             while(j<arr.length){
                 System.out.println(arr[i][j] + " "); //Printing 
                 j++;
-            }System.out.println(); 
+            }System.out.print("\n"); 
             i++;
         }
     }

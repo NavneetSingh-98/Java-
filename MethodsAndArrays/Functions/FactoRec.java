@@ -9,7 +9,7 @@ public class FactoRec {
         System.out.print("Enter  Your Number : ");
         int num = input.nextInt();
         long fact = facto(num);
-        System.out.println("Factoril of "+ num + " =" + fact );
+        System.out.println("Factoril of "+ num + "  : " + fact );
 
     }
     public static long facto(int num){

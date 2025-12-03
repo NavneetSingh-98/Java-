@@ -3,14 +3,18 @@ package FunctionalAndProgramming.Challenge.Challenge106;
 import java.util.function.BinaryOperator;
 
 public class MultiplecationLambda {
-public static void main(String[] args) {
+public static void main(String[] args) { 
 //    BinaryOperator<Integer>  multi  =  (a,b)-> a * b;
 //   int result =  multi.apply(3, 5);
 //    System.out.println(result);
 
 BinaryOperator<Integer> multi = (a,b) -> a * b;
-int result = multi.apply(4, 5);
-System.out.println(result);
+
+ System.out.println("Adding To Binary Number tO Integer ");
+
+int result = multi.apply(4, 5); 
+System.out.println(" Result will apper in the multi ");   
+System.out.println(result);   
 
 }
 }

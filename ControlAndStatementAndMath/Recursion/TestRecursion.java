@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TestRecursion {
     // public static void main(String[] args) {
         
-    //     // Self calling Function is called Recursion . 
+    //     // Self calling Function is called Recursion .   
 
     //     Scanner input = new Scanner(System.in);
     //     System.out.print("Enter Your Number:  ");

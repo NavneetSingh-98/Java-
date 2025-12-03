@@ -11,10 +11,8 @@ public class ExampleThread {
         for(int i = 0; i<= 100; i++){
             System.out.printf("%d , @",i);
         }
-        System.out.println("\n @ Task Completed  ");
-
+         System.out.println("\n @ Task Completed  ");
           // Second Task 
-
     for(int i = 0; i< 100; i++){
         System.out.printf("%d #",i);
     }
@@ -22,13 +20,11 @@ public class ExampleThread {
 
     // Third Task 
     for(int i = 0; i<100; i++){
-       
             System.out.printf("%d & ",i);
-
             System.out.println("\n & Task Completed ");
-        }
+        } 
         long endTime = System.currentTimeMillis();
-        System.out.printf( "Total Time Taken is %d :  ",endTime - StartTime);
+        System.out.printf( "Total Time Taken is %d :  ",endTime - StartTime); 
     }
     }
 

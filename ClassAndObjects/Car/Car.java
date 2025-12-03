@@ -1,9 +1,8 @@
 package ClassAndObjects.Car;
 
-import java.util.Scanner;
-
 public class Car {
   
+
    // Strings 
      int noOfWheels;
      String color;
@@ -19,13 +18,11 @@ public class Car {
       currentFielInLiters = 5;
 
      }
-
-
      //Method
      public void start(){
       if(currentFielInLiters == 0){
          System.out.println("Car in out of fuel ");
-      }else if(currentFielInLiters < 5){
+      }else if(currentFielInLiters < 5){    
          System.out.println("Car is an Reversed Mode Please refule ");
          currentFielInLiters--;
 
@@ -33,7 +30,6 @@ public class Car {
          
         System.out.println("Car is Started ");
         currentFielInLiters--;
-
       }
       }
       //Methods
@@ -42,8 +38,7 @@ public class Car {
          System.out.println("Car in out of fuel ");
       }else if(currentFielInLiters < 5){
          System.out.println("Car is an Reversed Mode Please refule ");
-         currentFielInLiters--;
-
+         currentFielInLiters--; 
       }else{
          
         System.out.println("Car is driving");
@@ -56,7 +51,6 @@ public class Car {
 
      }
      public float getCurrentFuelLevel(){
-        return currentFielInLiters;
+        return currentFielInLiters;                                                             
      }
-
 }
