@@ -50,6 +50,7 @@ public static int lcmFind(int first , int second){
         }
         i++;
     }
+    
 }
 
 
