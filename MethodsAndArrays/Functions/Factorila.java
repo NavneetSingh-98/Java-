@@ -55,27 +55,50 @@ public class Factorila {
     //         i++;
     //     }
     //     return fact;
+    // Scanner input = new Scanner(System.in);
+    // System.out.println("Enter Your Number : ");
+    // int num = input.nextInt();
+
+    // long fact = findFactoril(num);
+    // System.out.println("Factorila is : "+ fact);
+    
+    
+    // }
+    // public static long findFactoril(int num){
+    //     if(num <2){
+    //         return 1;
+    //     }
+    //     long fact = 1; 
+    //     int i = 2;
+    //     while(i <= num){
+    //         fact = fact*i;
+    //         i++;
+    //     }
+    //     return  fact;
+
     Scanner input = new Scanner(System.in);
-    System.out.println("Enter Your Number : ");
+    System.out.print("Enter Your Number : ");
     int num = input.nextInt();
 
-    long fact = findFactoril(num);
-    System.out.println("Factorila is : "+ fact);
-    
-    
+    long fact = FindFact(num);
+
+    System.out.println("Your Fact is : "+ fact);  
     }
-    public static long findFactoril(int num){
-        if(num <2){
+    public static long FindFact(int num){
+
+        if(num == 0 || num == 1){
             return 1;
+
         }
         long fact = 1; 
         int i = 2;
-        while(i <= num){
-            fact = fact*i;
+        while (i <= num) {
+            fact = fact * i;
             i++;
+            
         }
-        return  fact;
-      
+        return fact;
+
     }
      
 }

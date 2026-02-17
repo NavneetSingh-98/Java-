@@ -28,30 +28,57 @@ public class lcm {
     //         i++;
     //     }
       
+// public static void main(String[] args) {
+//     Scanner input = new Scanner(System.in);
+
+//     System.out.println("Enter Your first Number : ");
+//     int first = input.nextInt();
+
+//     System.out.println("Enter Your second Number : ");
+//     int second = input.nextInt();
+
+//     int lcm = lcmFind(first, second);
+//     System.out.println("Your lcm is "+ lcm);
+
+// }
+// public static int lcmFind(int first , int second){
+//     int i = 1; 
+//     while(true){
+//         int factor = first * i;
+//         if(factor % second == 0){
+//             return factor;
+//         }
+//         i++;
+//     }
+
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter Your first Number : ");
-    int first = input.nextInt();
+    System.out.println("Enter Your First Number : ");
+    int num1 = input.nextInt();
 
-    System.out.println("Enter Your second Number : ");
-    int second = input.nextInt();
+    System.out.println("Enter Your Second Number : ");
+    int num2 = input.nextInt();
 
-    int lcm = lcmFind(first, second);
-    System.out.println("Your lcm is "+ lcm);
+    int lcm = lcmFinder(num1, num2);
+    System.out.println("Your lcm is : " + lcm);
 
 }
-public static int lcmFind(int first , int second){
-    int i = 1; 
+
+public static int lcmFinder(int num1, int num2){
+    int i = 1;
     while(true){
-        int factor = first * i;
-        if(factor % second == 0){
+        int factor = num1 * i; 
+        if(factor % num2 == 0){
             return factor;
         }
-        i++;
+          i++;
     }
+  
+
+}
     
 }
 
 
-}
+

@@ -30,6 +30,23 @@ public class Swap {
         System.out.println("\nValue of B : "+ b);
 
 
+        // Scanner input = new Scanner(System.in);
+        // System.out.println("Welcome in swapping Two Numbers ");
+
+        // System.out.println("Enter Your First Number : ");
+        // int a = input.nextInt();
+
+        // System.out.println("Enter Yoour Second Number ");
+        // int b = input.nextInt();
+        
+
+        // int c = a;
+        // a = b ; 
+        // b = c;
+
+        // System.out.println("Value of A is : "+ a);
+        // System.out.println("Value of B is:  "+ b);
+
     }
 
 }

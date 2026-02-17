@@ -58,27 +58,52 @@ public class ArraySearching {
     //     }
     //     return false;
     // }
+    // public static void main(String[] args) {
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.println("Welcome in the Array Seaching ");
+
+    //     int[] myArr = {1,2,3,4,5,77,87,43,23,12,334,3432,54};
+    //     System.out.print("Enter Your Number You want to Search : ");
+    //     int num = input.nextInt();
+    //     boolean isFound = isFound(myArr, num);
+
+    //     if(isFound){
+    //         System.out.println("Your Number Is Found ");
+    //     }else{
+    //         System.out.println("Your Number Is Not Found ");
+    //     }
+
+    // }
+    // public static boolean isFound(int[] myArr, int num){
+    //     int index  =0;
+    //     while(index < myArr.length){
+    //         if(myArr[index] == num){
+    //             return true; 
+    //         }
+    //         index++;
+    //     }
+    //     return false;
+    // }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Welcome in the Array Seaching ");
-
-        int[] myArr = {1,2,3,4,5,77,87,43,23,12,334,3432,54};
-        System.out.print("Enter Your Number You want to Search : ");
+        System.out.println("Enter your  Array Number  ");
         int num = input.nextInt();
-        boolean isFound = isFound(myArr, num);
 
+        int[] myArr = {1,2,3,4,5,7};
+        boolean isFound = isFound(myArr, num);
         if(isFound){
-            System.out.println("Your Number Is Found ");
+            System.out.println("Your Number is Found ");
         }else{
-            System.out.println("Your Number Is Not Found ");
+            System.out.println("Your Numbber is Not Found ");
         }
+
 
     }
     public static boolean isFound(int[] myArr, int num){
-        int index  =0;
-        while(index < myArr.length){
+        int index = 0;
+        while(index <  myArr.length){
             if(myArr[index] == num){
-                return true; 
+                return true;
             }
             index++;
         }

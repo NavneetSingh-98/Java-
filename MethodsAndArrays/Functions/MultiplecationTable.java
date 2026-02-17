@@ -16,15 +16,39 @@ public class MultiplecationTable {
     //     }
         
     //  }
+    // public static void main(String[] args) {
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.println("Enter Your Number : ");
+    //     int num = input.nextInt();
+
+    //     for(int i=1; i<=10; i++){
+    //         System.out.println(num +"x"+i+"="+num *i);
+    //     }
+    //      input.close();
+    // } 
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter Your Number : ");
+        System.out.print("Enter Your Number : ");
         int num = input.nextInt();
 
-        for(int i=1; i<=10; i++){
-            System.out.println(num +"x"+i+"="+num *i);
+        // for(int i = 1; i<= 10 ; i++){
+        //     System.out.println(num + "x" + i +"=" + num*i);
+
+        // }
+
+
+        //While Loop 
+        int i = 1;
+        while(i <= 10){
+             System.out.println(num + "x" + i +"=" + num*i);
+             i++;
         }
-         input.close();
-    } 
+
+        //Do While Loop 
+
+      
+        
+    }
 
 }

@@ -60,6 +60,11 @@ public class Challenge1 {
     int num2 = '9';
     int num3 = num1 + num2;
     System.out.println(num3);
+
+    int num4 = '5';
+    int num5 = '5';
+    int num6 = num4 + num5;
+    System.out.println(num6); 
     }
 
 }

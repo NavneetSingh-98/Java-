@@ -25,22 +25,43 @@ public class SumOdd {
 
     //     }
     //     return sum;
+    // Scanner input = new Scanner(System.in);
+    // System.out.println("Enter Your Number : ");
+    // int num = input.nextInt();
+    // int sum = OddSum(num);
+    // System.out.println("Your Odd Sum is : "+ sum);
+
+    // }
+    // public static int OddSum(int num){
+    //     int sum = 0;
+    //     int i = 0;
+    //     while(i <= num ){
+    //         sum = sum + i;
+    //         i = i+2;
+    //     }
+    //     return sum;
+    // }
+
     Scanner input = new Scanner(System.in);
-    System.out.println("Enter Your Number : ");
+    System.out.print("Enter Your Number : ");
     int num = input.nextInt();
-    int sum = OddSum(num);
-    System.out.println("Your Odd Sum is : "+ sum);
+
+     int sum = SumOfOdd(num);
+    System.out.println("Sum Of Odd Number is : "+ sum);
+
 
     }
-    public static int OddSum(int num){
+
+    public static int SumOfOdd(int num ){
         int sum = 0;
         int i = 0;
-        while(i <= num ){
+        while(i <= num){
             sum = sum + i;
-            i = i+2;
+            i = i+2 ;
         }
-        return sum;
-    }
 
+        return sum;
+
+    }
 
 }

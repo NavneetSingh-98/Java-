@@ -29,28 +29,49 @@ public class PrimeOrNot {
 
     //     }
     //     return true;
-    Scanner input = new Scanner(System.in);
+    // Scanner input = new Scanner(System.in);
 
-    System.out.println("Enter Your Number : ");
-    int num = input.nextInt();
-    boolean isPrime = IsPrime(num);
+    // System.out.println("Enter Your Number : ");
+    // int num = input.nextInt();
+    // boolean isPrime = IsPrime(num);
 
-    if(isPrime){
-        System.out.println("Number is Prime ");
-    }else{
-        System.out.println("Number is Not Prime");
-    }
+    // if(isPrime){
+    //     System.out.println("Number is Prime ");
+    // }else{
+    //     System.out.println("Number is Not Prime");
+    // }
 
-    }
-    public static boolean IsPrime(int num){
-        for(int i=2; i<num ; i++){
-            if(num %2 == 0){
-                return false;
-            }
-        }
-          return true;
-    }
+    // }
+    // public static boolean IsPrime(int num){
+    //     for(int i=2; i<num ; i++){
+    //         if(num %2 == 0){
+    //             return false;
+    //         }
+    //     }
+    //       return true;
+    // }
   
+Scanner input = new Scanner(System.in);
+System.out.println("Enter Your Number : ");
+int num = input.nextInt();
+
+boolean isPrime = isPrime(num);
+if(isPrime){
+    System.out.println("Number is Prime");
+}else{
+    System.out.println("Number is Not Prime ");
+}
 
 
+
+}
+public static boolean isPrime(int num){
+    for(int i= 2; i<= num; i++){
+        if(num %2 == 0){
+            return false;
+        }
+    }
+    return true;
+
+}
 }
