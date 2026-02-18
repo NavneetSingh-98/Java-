@@ -3,6 +3,7 @@ package OOPS.EncapsulationAndInheritance.Inheritance.Challenge81;
 public class TestPerson {
     public static void main(String[] args) {
         Person person = new Person("Navneet", 22, 001);
+        Person person2 = new Person("Navneet", 22,001 );
 
        System.out.println(person.getName()); 
        System.out.println(person.getAge());
@@ -15,5 +16,11 @@ public class TestPerson {
         person.setRollNumber(004);
 
         System.out.println(person);
+
+        if(person.equals(person2)){
+            System.out.println("equals");
+        }else{
+            System.out.println("Not equals");
+        }
     }
 }

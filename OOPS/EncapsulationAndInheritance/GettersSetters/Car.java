@@ -16,22 +16,18 @@ public class Car {
         this.costOfPurchase = costOfPurchase;
     }
 
-  public  String getColor(){
-        return color;
-    }
-    public void  setColor(String color){
-        if(color.equals("Yellow")){
-            System.out.println("Pagal ha kya ");
+      public String getColor(){
+        if(color == "yellow"){
+            System.out.println("Pagal hai kya");
         }else{
-          this.color= color;
+            System.out.printf("Your color is %s" , color);
         }
-      
-    }
-   
-   public String getModel(){
+        return color;
+      }
+      public String getModel(){
         return model;
-    }
+      }
 
-  
+
 
 }

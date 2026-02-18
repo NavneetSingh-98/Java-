@@ -37,23 +37,21 @@ public class Car {
   public  String color; // Color will be public 
   public int noOfTyre;
   public  String model;  // model will be public 
-   private double fuel;  // fuel  will not  be public 
+  private double fuel;  // fuel  will not  be public 
   private long costOfPurchase; // cost will not be public 
+  public Car(String color, int noOfTyre, String model, double fuel, long costOfPurchase) {
+    this.color = color;
+    this.noOfTyre = noOfTyre;
+    this.model = model;
+    this.fuel = fuel;
+    this.costOfPurchase = costOfPurchase;
+  }
+  @Override
+  public String toString() {
+    return "Car [color=" + color + ", noOfTyre=" + noOfTyre + ", model=" + model + ", fuel=" + fuel
+            + ", costOfPurchase=" + costOfPurchase + "]";
+  }
 
-
-    public Car(String color, String model, double fuel, int costOfPurchase) {
-        this.color = color;
-        this.model = model;
-        this.fuel = fuel;
-        this.costOfPurchase = costOfPurchase;
-    }
-    public Car(){
-
-    }
-    @Override
-    public String toString() {
-       return "Car [ color=" + color + "model"+ model+ "fuel"+ fuel+ "costOfPurchase"+ costOfPurchase+"]";
-    }
-
-    
+  
+  
 }

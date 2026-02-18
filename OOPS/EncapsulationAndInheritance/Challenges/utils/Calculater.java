@@ -4,16 +4,15 @@ import OOPS.AbstractionAndPolymorphism.Challenge83.Circle;
 import OOPS.EncapsulationAndInheritance.Challenges.geometry.Rectangle;
 
 public class Calculater {
-    public static void main(String[] args) {
-        
-        Circle cir = new Circle(6);
-        Rectangle rect = new Rectangle(5, 8);
+public static void main(String[] args) {
+    Circle circle = new Circle(5);
+    Rectangle rectangle = new Rectangle(5, 5);
 
-        double cirArea = Math.PI * Math.pow(cir.radius,2);
-        int rectArea = rect.length * rect.width;
+    long cirArea = (long) (Math.PI*  circle.radius * circle.radius);
+    int rectArea = rectangle.length * rectangle.width;
 
-        System.out.printf("Area of Circle is : ", cirArea);
-        System.out.printf("Area of Rectangle is : %d ",rectArea);
-    }
+    System.out.printf("Your Circle area is %d " , cirArea);
+    System.out.printf("Your Reactangle area is %d " , rectArea);
+}
 
 }
