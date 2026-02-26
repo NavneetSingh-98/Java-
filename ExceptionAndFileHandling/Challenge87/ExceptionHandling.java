@@ -22,6 +22,7 @@ public class ExceptionHandling {
     finally{
         System.out.println(" \nI am Finally So am Also Run ");
     }
+    input.close();
    
  }
 

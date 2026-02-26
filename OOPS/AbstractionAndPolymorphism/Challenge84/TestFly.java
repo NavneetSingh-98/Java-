@@ -6,6 +6,7 @@ public class TestFly {
         Eagle eagle = new Eagle("Eagel");  
     
         eagle.fly();
+        
     }
 
 }
