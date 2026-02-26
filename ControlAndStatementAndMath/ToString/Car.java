@@ -24,6 +24,6 @@ public class Car {
     public static void main(String[] args){
         Car swift = new Car(4, 4, 300, "Swift", "No model", "Maruti");
 
-        System.out.println(swift);  // return a Hashcode 
+        System.out.println(swift.toString());  // return a Hashcode 
     } 
 }

@@ -13,8 +13,16 @@ public class Contineu {
         // }
         // System.out.println("Out Of The Loop ");
 
-        for(int i=1; i<= 50; i++){
-            if(i ==8+5+2){
+        // for(int i=1; i<= 50; i++){
+        //     if(i ==8+5+2){
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
+
+        for(int i = 0; i<= 50; i++){
+          
+            if(i == 7){
                 continue;
             }
             System.out.println(i);

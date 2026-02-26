@@ -26,12 +26,22 @@ public class Break {
     // }
 
     // }
+    // int i = 1;
+    // while(i < 50){
+    //     System.out.println(i);
+    //     i++;
+
+    //     if(i ==6){
+    //         break;
+    //     }
+    // }
+
     int i = 1;
     while(i < 50){
         System.out.println(i);
         i++;
 
-        if(i ==6){
+        if(i == 6){
             break;
         }
     }

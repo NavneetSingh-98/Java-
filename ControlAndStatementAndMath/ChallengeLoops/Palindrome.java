@@ -30,27 +30,55 @@ public class Palindrome {
 
     // }
 
+    // public static void main(String[] args) {
+    //     Scanner input = new Scanner(System.in);
+    //     System.out.print("Enter Your String : ");
+    //     String str = input.next();
+    //      boolean isPalindrome= isPalindrome(str);
+    //      if(isPalindrome){
+    //         System.out.println("Your String is Palindrome ");
+    //      }else{
+    //         System.out.println("Your String is Not Plaindrome");
+    //      }
+
+    // }
+    // public static boolean isPalindrome(String str){
+    //     if(str.length() <=1){
+    //         return true;
+    //     }
+    //     int lastPos = str.length()-1;
+    //     if(str.charAt(0) != str.charAt(lastPos)){
+    //         return false;
+    //     }String newStr  = str.substring(1,lastPos);
+    //     return isPalindrome(newStr);
+    // }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Your String : ");
+        System.out.println("Welcome in the Palindrome Checker ");
+
+        System.out.println("Enter Your String : ");
         String str = input.next();
-         boolean isPalindrome= isPalindrome(str);
-         if(isPalindrome){
-            System.out.println("Your String is Palindrome ");
-         }else{
-            System.out.println("Your String is Not Plaindrome");
-         }
+        boolean isPalindome = isPalindrome(str);
+        if(isPalindome){
+            System.out.println("Your String is Palidrome");
+
+        }else{
+            System.out.println("Your String is not a Palindrome ");
+        }
 
     }
     public static boolean isPalindrome(String str){
-        if(str.length() <=1){
-            return true;
+        if(str.length() <= 1){
+          return true;
         }
-        int lastPos = str.length()-1;
+        int lastPos = str.length() - 1;
         if(str.charAt(0) != str.charAt(lastPos)){
             return false;
-        }String newStr  = str.substring(1,lastPos);
+        }
+        String newStr = str.substring(1, lastPos);
         return isPalindrome(newStr);
+
     }
 
 }

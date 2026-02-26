@@ -28,15 +28,24 @@ public class readInput {
             
         // }
 
-        while(true){
-            System.out.print("Enter Your String : ");
-            String commend = input.next();
+        // while(true){
+        //     System.out.print("Enter Your String : ");
+        //     String commend = input.next();
 
+        //     if(commend.equals("exit")){
+        //         break;
+                
+        //     }
+        //     System.out.println("You succesfully Exited");
+        // }
+
+        while(true){
+            System.out.println("Enter Your String ");
+            String commend = input.next();
             if(commend.equals("exit")){
                 break;
-                
             }
-            System.out.println("You succesfully Exited");
+            System.out.println("You exit succesfully");
         }
 }
 }

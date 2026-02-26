@@ -23,11 +23,11 @@ public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     System.out.print("Please enter Your Age : ");
     int age = input.nextInt();
-
-    while(age < 10 || age > 100){
-        System.out.print("Please enter Your age : ");
-        age = input.nextInt();
-    }
-    System.out.println("Your age is : " + age );
+  
+      while(age < 10 || age > 100){
+        System.out.println("Enter Your age : ");
+         age = input.nextInt();
+      }
+      System.out.println("your age is " + age );
 }
 }

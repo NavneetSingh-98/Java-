@@ -36,18 +36,22 @@ public class TestRecursion {
     //     return num * factorial(num-1);
     // }
 
-    public static void main(String[] args) {
+ public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-    System.out.println("Factorial Finder");
-    System.out.print("Enter Your Number : ");
+
+    System.out.println("Welcome in Java ");
+
+    System.out.println("Enter Your Number : ");
     int num = input.nextInt();
-    long fact = FactorialFinder(num);
-    System.out.println("your factorial is : "+ fact);
+    long fact = findFacto(num);
+    System.out.println("Your factorial is : " + fact);
+
+ }
+ public static long findFacto(int num){
+    if(num == 0){
+        return 1;
+
     }
-    public static long FactorialFinder(int num){
-        if(num == 0){
-            return 1;
-        }
-        return num * FactorialFinder(num -1);
-    }
+    return num * findFacto(num -1);
+ }
 }

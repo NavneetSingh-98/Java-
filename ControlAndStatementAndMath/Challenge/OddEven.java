@@ -15,11 +15,13 @@ public class OddEven {
 
         // System.out.println(OddEven + " Is Your Number");
 
-        System.out.print("Enter Your Number : ");
+        System.out.println("Enter Your Number : ");
         int num = input.nextInt();
 
-        String OddEven = num % 2==0 ?" odd ": "even";
-        System.out.println("Your Number is : "+ OddEven);
+        String oddEven = num % 2 == 0 ? "even" : "odd";
+        System.out.println("Your number is : "+ oddEven);
+
+
     }
 
 }
