@@ -6,7 +6,7 @@ public class CelciusToFarehnite {
 
         System.out.println("Welcome to the Temparture ");
 
-        System.out.println("Entre your temp in F : ");
+        System.out.println("Entre your temp in F : \n ");
         float fah = input.nextFloat();
 
         float cel = ( fah -32) * 5/9;

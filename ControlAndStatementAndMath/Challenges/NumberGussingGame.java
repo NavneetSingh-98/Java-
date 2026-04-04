@@ -8,13 +8,7 @@ class NumberGussingGame {
     NumberGussingGame(){
         random = (int)Math.ceil(Math.random() * 100);
     }
-    /**
-     * 
-     * @param guessNumber the number that player gussed 
-     * @return Negative if the gussed number is smaller 
-     * - 0 if the   gussed number is correct
-     * -Positive if the gussed number is higher
-     */
+  
     int  guess(int guessNumber){
         return guessNumber -random;
 

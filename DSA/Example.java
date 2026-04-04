@@ -31,17 +31,16 @@ public class Example {
         System.out.println(mySalary);
           double yourSalary = 100.1212121212;
         System.out.println(yourSalary);
-          
-          
+        
         // characters
-        // Char
+        // Char 
 
         char intial = 'A';
         System.out.println((int) intial);
         System.out.println((char) 10084);
         
         //boolean
-         // boolean 
+        // boolean 
 
          boolean isDigit = true;
          System.out.println(isDigit);

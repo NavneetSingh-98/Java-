@@ -19,24 +19,36 @@ public class concatenateString {
       // String fullName = firstName.concat(" ").concat(LastName);
       // System.out.println(fullName.toUpperCase());
 
-      String firstName = "Navneet";
-      String LastName = "Rajput";
-      String fullName = firstName.concat("").concat(LastName);
-      System.out.println(fullName.toUpperCase());
-      System.out.println(fullName.toLowerCase());
-      System.out.println(fullName.compareToIgnoreCase(LastName));
-      System.out.println(fullName.endsWith(fullName));
-      System.out.println(fullName.charAt(4));
-      System.out.println(fullName.hashCode());
-      System.out.println(fullName.indexOf(LastName));
-      System.out.println(fullName.isBlank());
-      System.out.println(fullName.getClass());
-      System.out.println(fullName.toString());
-      System.out.println(fullName.split(fullName));
-      System.out.println(fullName.contains("Navneet"));
-      System.out.println(fullName.lastIndexOf(4));
-      System.out.println(fullName.startsWith("N"));
+    //   String firstName = "Navneet";
+    //   String LastName = "Rajput";
+    //   String fullName = firstName.concat("").concat(LastName);
+    //   System.out.println(fullName.toUpperCase());
+    //   System.out.println(fullName.toLowerCase());
+    //   System.out.println(fullName.compareToIgnoreCase(LastName));
+    //   System.out.println(fullName.endsWith(fullName));
+    //   System.out.println(fullName.charAt(4));
+    //   System.out.println(fullName.hashCode());
+    //   System.out.println(fullName.indexOf(LastName));
+    //   System.out.println(fullName.isBlank());
+    //   System.out.println(fullName.getClass());
+    //   System.out.println(fullName.toString());
+    //   System.out.println(fullName.split(fullName));
+    //   System.out.println(fullName.contains("Navneet"));
+    //   System.out.println(fullName.lastIndexOf(4));
+    //   System.out.println(fullName.startsWith("N"));
       
+    // }
+
+    StringBuilder sb = new StringBuilder("Hello ");
+    sb.append("My name is Navneet ");
+    sb.append("I am from New Delhi ");
+
+    System.out.println(sb.toString());
+
+    String firstName = "Navneet";
+    String lastName = "Singh";
+    String fullName = firstName.concat(" ") + lastName.concat("");
+    System.out.println(fullName.toUpperCase());
     }
 
 }

@@ -17,7 +17,7 @@ public class FibonacciSeries {
         }
     }
     public static int fibbonacci(int position){
-        System.out.print(".");
+        // System.out.print(".");
 
         if(position == 1){
             return 0;

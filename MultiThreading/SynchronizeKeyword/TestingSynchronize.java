@@ -13,14 +13,14 @@ public class TestingSynchronize {
 
         try {
             t1.start();
-            t1.join();
+             t1.join();
             
             t2.start();
-            t2.join();
+             t2.join();
 
-        } catch (InterruptedException e) {
+         } catch (InterruptedException e) {
            
-        System.out.printf("Intrupted Exception ",e.getMessage());
+         System.out.printf("Intrupted Exception ",e.getMessage());
         }
         long endTime = System.currentTimeMillis();
         
