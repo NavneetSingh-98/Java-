@@ -43,6 +43,8 @@ public class TestRecursion {
 
     System.out.println("Enter Your Number : ");
     int num = input.nextInt();
+
+    
     long fact = findFacto(num);
     System.out.println("Your factorial is : " + fact);
 

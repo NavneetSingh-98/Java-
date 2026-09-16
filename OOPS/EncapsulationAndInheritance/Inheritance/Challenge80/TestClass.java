@@ -10,6 +10,10 @@ public class TestClass {
         book.checkout();
         dvd.checkout();
         magazine.checkout();
+
+        book.returnItem();
+        dvd.returnItem();
+        magazine.returnItem();
     }
 
 }

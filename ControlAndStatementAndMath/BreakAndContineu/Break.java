@@ -36,15 +36,21 @@ public class Break {
     //     }
     // }
 
-    int i = 1;
-    while(i < 50){
-        System.out.println(i);
-        i++;
+    // int i = 1;
+    // while(i < 50){
+    //     System.out.println(i);
+    //     i++;
 
-        if(i == 6){
+    //     if(i == 6){
+    //         break;
+    //     }
+    // }
+
+    for(int i =0 ; i< 50; i++){
+        if(i == 10){
             break;
         }
+        System.out.println(i);
     }
-
 }
 }

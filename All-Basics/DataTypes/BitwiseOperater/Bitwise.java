@@ -31,6 +31,9 @@ public class Bitwise {
         int result = first & second;
         System.out.println("Your result is : " + result);
 
+        double y = 7.7;
+        System.out.println(y);
+
     }
 
 }

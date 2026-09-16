@@ -7,6 +7,7 @@ public class GettersTest {
      car.getColor();
      car.getClass();
      car.getModel();
+     car.getColor();
   
     }
 }

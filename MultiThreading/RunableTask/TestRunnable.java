@@ -2,7 +2,7 @@ package MultiThreading.RunableTask;
 
 public class TestRunnable {
     public static void main(String[] args) {
-        
+
         PrintTask p1 = new PrintTask('*');
         PrintTask p2 = new PrintTask('$');
         PrintTask p3 = new PrintTask('&');
@@ -16,5 +16,5 @@ public class TestRunnable {
         Thread t3 = new Thread(p3);
         t3.setPriority(Thread.MAX_PRIORITY);
         t3.start();
-        }
+    }
 }

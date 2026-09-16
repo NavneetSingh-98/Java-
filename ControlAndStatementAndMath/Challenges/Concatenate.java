@@ -6,7 +6,7 @@ public class Concatenate {
         sb.append("This is the second Line");
         sb.append(220916);
         sb.append("Java Laerner");
-        System.out.println(sb.toString());
+        System.out.println(sb.toString().toUpperCase());
 
     }
 

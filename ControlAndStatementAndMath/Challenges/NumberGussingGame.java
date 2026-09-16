@@ -25,7 +25,7 @@ class NumberGussingGame {
             guess = input.nextInt();
             result = game.guess(guess);
             if(result == 0){
-                System.out.println("Congrates your Gussed is Correct");
+                System.out.println(" 😎Congrates your Gussed is Correct 😎");
             }else if(result < 0 ){
                 System.out.println("Please guess Higher");
             }else{
