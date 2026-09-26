@@ -16,6 +16,8 @@ public class TestingAdd {
         System.out.println(strList.hashCode());
         strList.add("Greater Noida ");
         strList.add("From");
+        strList.remove(3);
+        strList.clear();
 
         if(strList.contains("Rajput")){
             System.out.println("Rajput Exits");
